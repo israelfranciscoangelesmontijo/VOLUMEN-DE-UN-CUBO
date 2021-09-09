@@ -1,0 +1,16 @@
+/*VOLUMEN DE UN CUBO
+EXAMEN PRIMER PARCIAL
+ISRAEL FRANCISCO ANGELES MONTIJO*/
+
+#include <stdio.h>
+#include <math.h>
+int main(void){
+	
+	int V,L;
+	printf("VOLUMEN DE UN CUBO\n");
+	printf("INGRESE VAOR DE UNO DE LOS LADOS: \n");
+	scanf("%d",&L);
+	V=L*L*L;
+	printf("EL VOLUMEN DEL CUBO ES:%d",V);
+	return 0;
+	}
